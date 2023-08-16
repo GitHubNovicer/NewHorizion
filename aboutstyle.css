@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    display: block;
+    text-align: center;
+    width: 100%;
+    /*background-image: url("https://images.pexels.com/photos/1028546/pexels-photo-1028546.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    */z-index: 2;
+    object-position: bottom 5%;
+    background-color: rgba(255,255,255,0.5);
+}
+#navitem {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 4em;
+    margin: -4em;
+  }
+  #navitem:hover{
+    display: inline-block;
+    height: 30px;
+    width: 120px;
+    padding: 10px 15px 0px 15px;
+    border: solid 2.5px black;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    margin: 22.5px -2.25px -22.5px -3.1px;
+}
+.newhorizonhead{
+    color: black;
+    font-family: cursive;
+    border: 3px solid grey;
+    position: sticky;
+    top: 70px;
+    margin-top: 10%;
+    z-index:1;
+    padding-right: 0%;
+}
+a[href*="About"], a[href*="Views"], 
+a[href*="Bible"], a[href*="Forums"]{
+    color: black;
+    text-decoration: none;
+}
+img[src*="Parker"]{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    margin: 150px 0px 5px 5px;
+}
+h1{
+    margin: 250px 0px 0px 350px;
+}
+h2{
+    margin: 250px 0px 0px 350px;
+}
+p{
+    margin: 250px 0px 0px 350px;
+}
+#navcross:hover{
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+}
+#navcross{
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+}
